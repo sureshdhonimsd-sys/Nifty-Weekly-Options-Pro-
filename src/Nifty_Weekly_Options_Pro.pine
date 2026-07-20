@@ -1,1 +1,5 @@
+//@version=6
+indicator("Nifty Weekly Options Pro v1.0", overlay=true)
 
+plot(ta.ema(close, 9), "EMA 9")
+plot(ta.ema(close, 20), "EMA 20")
